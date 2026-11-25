@@ -42,3 +42,6 @@ It prints `saved qr_banner.png size (320, 472)` and creates `qr_banner.png`: the
 - The font path is for macOS only.
 - It does not check that the QR text is too long for a QR code.
 - The banner font is fixed to `big`.
+
+## Extra (homework): diwali_card.py
+A fourth library, **rich**. `python diwali_card.py [name] [output.svg]` prints a small Diwali card (a panel and a table of the five days) in the terminal and saves it as `diwali_card.svg`. Install it with `pip install -r requirements.txt` (rich is now in the file). It only uses the text I typed in, so the festival days are fixed and not looked up.
